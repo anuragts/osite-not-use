@@ -7,7 +7,7 @@ import Home from './components/Home.vue';
 </template>
 
 <style >
-  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Maven+Pro&family=Mulish:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Maven+Pro&family=Mulish:wght@300&family=Open+Sans&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
 :root{
   --primary:#BEE2F1;
   --secondary:rgb(71, 85, 105);

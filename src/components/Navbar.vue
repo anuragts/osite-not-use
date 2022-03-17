@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <li class="start"><a href="/">anuragdev</a></li>
+    <li class="start"><a  class="active" href="/">anuragdev</a></li>
     <li><a href="/" class="end">contact</a></li>
     <li><a href="/">projects</a></li>
     <li><a class="link" href="/">skills</a></li>
@@ -20,11 +20,10 @@ li {
 }
 .start {
   float: left;
-  margin-left: 3vw;
   
 }
-.end {
-  margin-right: 4vw;
+.active{
+  padding-left: 0;
 }
 
 li a {
@@ -40,5 +39,8 @@ li a {
 a:hover{
   text-shadow: 0px 2px 10px rgb(0, 183, 255);                              
 
+}
+.active:hover{
+  text-shadow: none;
 }
 </style>
