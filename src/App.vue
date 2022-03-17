@@ -13,6 +13,7 @@ import Home from './components/Home.vue';
   --secondary:rgb(71, 85, 105);
   --third:rgb(203, 213, 225);
   --white:rgb(255, 255, 255);
+  --l:rgb(28, 181, 241);
 }
 
 </style>
