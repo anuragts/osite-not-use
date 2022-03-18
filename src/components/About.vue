@@ -30,30 +30,17 @@
   font-family: "Ubuntu", sans-serif;
   font-size: 2rem;
   /* text-align: center; */
-  margin-top: 2rem;
   float: right;
   margin-top: 5rem;
-  z-index: 1;
+
 }
 .lap {
-  position: absolute;
-  z-index: -1;
-  margin-top: -8rem;
+  /* margin-top: 4rem; */
+  width: 30rem;
 }
 .lg {
   color: var(--l);
   text-shadow: 0px 5px 20px rgb(5, 238, 255);
 }
-.res {
-  color: var(--primary);
-  background-color: var(--l);
-  margin: 2rem 2rem;
-  margin-left: 0;
-  padding: 10px 20px;
-  font-size: 1.5rem;
-  border: 2px solid black;
-  border-color: var(--l);
-  cursor: pointer;
-  font-family: "Courier Prime", monospace;
-}
+
 </style>

@@ -2,8 +2,8 @@
   <ul>
     <li class="start"><a  class="active" href="/">anuragdev</a></li>
     <li><a href="/" class="end">contact</a></li>
-    <li><a href="/">projects</a></li>
-    <li><a class="link" href="/">skills</a></li>
+    <li><a href="/projects">projects</a></li>
+    <li><a  href="#skills">skills</a></li>
     <li><a href="#about">about</a></li>
   </ul>
 </template>

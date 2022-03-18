@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import Home from './components/Home.vue';
+console.log("Looking for source code ?");
+console.log("Made with Vue.js");
 </script>
 
 <template>
