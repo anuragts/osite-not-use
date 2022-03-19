@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Home from './components/Home.vue';
+import { RouterLink, RouterView } from 'vue-router';
 console.log("Looking for source code ?");
 console.log("Made with Vue.js");
 </script>
@@ -17,6 +18,6 @@ console.log("Made with Vue.js");
   --white:rgb(255, 255, 255);
   --l:rgb(28, 181, 241);
 }
-
+ 
 </style>
 

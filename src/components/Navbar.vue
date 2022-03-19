@@ -1,13 +1,20 @@
 <template>
+<div class="navbar">
   <ul>
     <li class="start"><a  class="active" href="/">anuragdev</a></li>
     <li><a href="/" class="end">contact</a></li>
     <li><a href="/projects">projects</a></li>
     <li><a  href="#skills">skills</a></li>
     <li><a href="#about">about</a></li>
-  </ul>
+  </ul></div>
 </template>
 <style scoped>
+  /* .navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  } */
 ul {
   list-style-type: none;
   margin: 0;
@@ -17,7 +24,11 @@ ul {
 
 li {
   float: right;
+  
 }
+/* .end{
+  margin-right:5rem ;
+} */
 .start {
   float: left;
   
