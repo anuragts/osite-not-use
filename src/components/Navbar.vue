@@ -6,8 +6,8 @@
       </li>
       <li><router-link to="/" class="r-link">contact</router-link></li>
       <li><router-link to="/projects" class="r-link">projects</router-link></li>
-      <li><router-link to="#skills" class="r-link">skills</router-link></li>
-      <li><router-link to="#about" class="r-link">about</router-link></li>
+      <li><a href="#skills" class="r-link">skills</a></li>
+      <li><a href="#about" class="r-link">about</a></li>
     </ul>
   </div>
 </template>
