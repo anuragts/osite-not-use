@@ -3,9 +3,8 @@ import Home from "../components/Home.vue";
 import Project from "../components/Project.vue";
 import NotFound from "../components/NotFound.vue";
 import MoreSkills from "../components/MoreSkills.vue";
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
+
+const  routes = [
     {
       path: "/",
       name: "home",
@@ -25,7 +24,11 @@ const router = createRouter({
       name: "NotFound", 
       component: NotFound 
     },
-  ],
+  ];
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes,
 });
 
 export default router;
